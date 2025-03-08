@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    padding-top: 70px;
+}
+
+.menu-section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-height: 700px;
+}
+
+.chicken-section {
+    background-color: #f8d7da;
+}
+
+.beef-section {
+    background-color: #d4edda;
+}
+
+.sushi-section {
+    background-color: #fff3cd;
+}
+
+.back-to-top {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    text-decoration: underline;
+}
+
+.navbar-collapse {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav {
+        background-color: #f8f9fa;
+    }
+}
